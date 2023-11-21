@@ -1,0 +1,3 @@
+cargo:rerun-if-changed=build/main.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/gowrirc/privdev/SS23/GC1/code/target/debug/build/typenum-1082ba0477282cc8/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/gowrirc/privdev/SS23/GC1/code/target/debug/build/typenum-1082ba0477282cc8/out/op.rs

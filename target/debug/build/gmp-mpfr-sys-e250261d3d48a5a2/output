@@ -1,0 +1,18 @@
+cargo:rerun-if-env-changed=GMP_MPFR_SYS_CACHE
+$ mkdir -p "/home/gowrirc/privdev/SS23/GC1/code/target/debug/build/gmp-mpfr-sys-e250261d3d48a5a2/out/lib"
+$ mkdir -p "/home/gowrirc/privdev/SS23/GC1/code/target/debug/build/gmp-mpfr-sys-e250261d3d48a5a2/out/include"
+$ cp "/home/gowrirc/.cache/gmp-mpfr-sys/1.6/x86_64-unknown-linux-gnu/1.6.0/libmpc.a" "/home/gowrirc/privdev/SS23/GC1/code/target/debug/build/gmp-mpfr-sys-e250261d3d48a5a2/out/lib/libmpc.a"
+$ cp "/home/gowrirc/.cache/gmp-mpfr-sys/1.6/x86_64-unknown-linux-gnu/1.6.0/mpc.h" "/home/gowrirc/privdev/SS23/GC1/code/target/debug/build/gmp-mpfr-sys-e250261d3d48a5a2/out/include/mpc.h"
+$ cp "/home/gowrirc/.cache/gmp-mpfr-sys/1.6/x86_64-unknown-linux-gnu/1.6.0/libmpfr.a" "/home/gowrirc/privdev/SS23/GC1/code/target/debug/build/gmp-mpfr-sys-e250261d3d48a5a2/out/lib/libmpfr.a"
+$ cp "/home/gowrirc/.cache/gmp-mpfr-sys/1.6/x86_64-unknown-linux-gnu/1.6.0/mpfr.h" "/home/gowrirc/privdev/SS23/GC1/code/target/debug/build/gmp-mpfr-sys-e250261d3d48a5a2/out/include/mpfr.h"
+$ cp "/home/gowrirc/.cache/gmp-mpfr-sys/1.6/x86_64-unknown-linux-gnu/1.6.0/libgmp.a" "/home/gowrirc/privdev/SS23/GC1/code/target/debug/build/gmp-mpfr-sys-e250261d3d48a5a2/out/lib/libgmp.a"
+cargo:limb_bits=64
+$ cp "/home/gowrirc/.cache/gmp-mpfr-sys/1.6/x86_64-unknown-linux-gnu/1.6.0/gmp.h" "/home/gowrirc/privdev/SS23/GC1/code/target/debug/build/gmp-mpfr-sys-e250261d3d48a5a2/out/include/gmp.h"
+cargo:limb_bits=64
+cargo:out_dir=/home/gowrirc/privdev/SS23/GC1/code/target/debug/build/gmp-mpfr-sys-e250261d3d48a5a2/out
+cargo:lib_dir=/home/gowrirc/privdev/SS23/GC1/code/target/debug/build/gmp-mpfr-sys-e250261d3d48a5a2/out/lib
+cargo:include_dir=/home/gowrirc/privdev/SS23/GC1/code/target/debug/build/gmp-mpfr-sys-e250261d3d48a5a2/out/include
+cargo:rustc-link-search=native=/home/gowrirc/privdev/SS23/GC1/code/target/debug/build/gmp-mpfr-sys-e250261d3d48a5a2/out/lib
+cargo:rustc-link-lib=static=mpc
+cargo:rustc-link-lib=static=mpfr
+cargo:rustc-link-lib=static=gmp

@@ -1,0 +1,11 @@
+prefix=/home/gowrirc/privdev/SS23/GC1/code/target/release/build/openssl-sys-f65140267ea4008a/out/openssl-build/install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL-libssl
+Description: Secure Sockets Layer and cryptography libraries
+Version: 1.1.1v
+Requires.private: libcrypto
+Libs: -L${libdir} -lssl
+Cflags: -I${includedir}

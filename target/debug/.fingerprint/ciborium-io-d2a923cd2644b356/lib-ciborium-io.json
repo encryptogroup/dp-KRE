@@ -1,0 +1,1 @@
+{"rustc":13782479574610989673,"features":"[\"alloc\", \"std\"]","target":4164319447240308737,"profile":7767436220172716501,"path":17177383649126120675,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"debug/.fingerprint/ciborium-io-d2a923cd2644b356/dep-lib-ciborium-io"}}],"rustflags":[],"metadata":7720831056268036866,"config":2202906307356721367,"compile_kind":0}
